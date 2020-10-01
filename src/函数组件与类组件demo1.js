@@ -1,42 +1,42 @@
 import React from 'react'
 
-function Father(){
+function Father() {
     return (
-            <div>
-                爸爸
-                <Son />
-            </div>
+        <div>
+            爸爸
+            <Son />
+        </div>
     )
 }
 
-class Son extends React.Component{
-    constructor(){
+class Son extends React.Component {
+    constructor() {
         super()
-        this.state ={
-            n:0
+        this.state = {
+            n: 0
         }
     }
-    add(){
-        this.setState({n:this.state.n + 1})
+    add() {
+        this.setState({ n: this.state.n + 1 })
     }
-    render(){
+    render() {
         return (
             <div>
                 儿子 {this.state.n}
-                <button onClick={()=> this.add()}>+1</button>
+                <button onClick={() => this.add()}>+1</button>
                 <Grandson />
             </div>
         )
     }
 }
 
-const Grandson = ()=>{
-    const [n,setN] = React.useState(0);
+const Grandson = () => {
+    const [n, setN] = React.useState(0);
     return (
         <div>
             Grandson
             {n}
-            <button onClick={()=> setN(n +1 )}>+1</button>
+            <button onClick={() => setN(n + 1)}>+1</button>
         </div>
     )
 }
