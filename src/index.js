@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Father from './函数组件与类组件demo1'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Father />
   </React.StrictMode>,
   document.getElementById('root')
 );
