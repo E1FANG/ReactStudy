@@ -20,7 +20,7 @@ class Son extends React.Component {
       m: 0
     };
   }
-  addN() {
+  addN=()=> {
     this.setState({ n: this.state.n + 1 });
     // m 会被覆盖为 undefined 吗？
   }

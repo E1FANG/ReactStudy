@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import Father from './函数组件与类组件demo1'
-import Father2 from './函数组件与类组件使用props'
+import App from './类组件详解/props钩子'
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -15,7 +14,7 @@ import Father2 from './函数组件与类组件使用props'
 //   document.getElementById('root')
 // );
 ReactDOM.render(
-    <Father />,
+    <App />,
   document.getElementById('root')
 );
 // If you want your app to work offline and load faster, you can change
