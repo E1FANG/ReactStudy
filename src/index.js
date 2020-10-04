@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import App from './类组件详解/PureComponent'
+import App from './类组件详解/render使用数组循环'
 
 // ReactDOM.render(
 //   <React.StrictMode>
